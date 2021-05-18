@@ -15,6 +15,7 @@
 		DD39EC1D246578FA001BDA02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD39EC1B246578FA001BDA02 /* LaunchScreen.storyboard */; };
 		DD39EC28246578FA001BDA02 /* Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD39EC27246578FA001BDA02 /* Weather_AppTests.swift */; };
 		DD39EC33246578FA001BDA02 /* Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD39EC32246578FA001BDA02 /* Weather_AppUITests.swift */; };
+		DD88BDB62479850500429779 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88BDB52479850500429779 /* WeatherGetter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DD39EC2E246578FA001BDA02 /* Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD39EC32246578FA001BDA02 /* Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITests.swift; sourceTree = "<group>"; };
 		DD39EC34246578FA001BDA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD88BDB52479850500429779 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				DD39EC10246578F9001BDA02 /* AppDelegate.swift */,
 				DD39EC12246578F9001BDA02 /* SceneDelegate.swift */,
+				DD88BDB52479850500429779 /* WeatherGetter.swift */,
 				DD39EC14246578F9001BDA02 /* ContentView.swift */,
 				DD39EC16246578FA001BDA02 /* Assets.xcassets */,
 				DD39EC1B246578FA001BDA02 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD39EC11246578F9001BDA02 /* AppDelegate.swift in Sources */,
+				DD88BDB62479850500429779 /* WeatherGetter.swift in Sources */,
 				DD39EC13246578F9001BDA02 /* SceneDelegate.swift in Sources */,
 				DD39EC15246578F9001BDA02 /* ContentView.swift in Sources */,
 			);
